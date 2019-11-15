@@ -1,0 +1,13 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.js"></script>
+<script>
+var it_is_mobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+$.get("https://ipinfo.io", function(response) {
+	if(response.country !== "GB"){
+		/* Google Adsense comes here and displays only visitors outside of GB (the Great Britain) */
+	}
+}, "jsonp")
+</script>
+
+
+
+
