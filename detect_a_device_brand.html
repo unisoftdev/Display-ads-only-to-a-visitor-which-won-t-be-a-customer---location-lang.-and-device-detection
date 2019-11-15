@@ -1,0 +1,13 @@
+<script>
+if(
+    (screen.width < 641) || 
+    (window.matchMedia && 
+     window.matchMedia('only screen and (max-width: 640px)').matches
+    )
+  ){
+	var APPLEs_mobile_products = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (!APPLEs_mobile_products){
+         // Ads come here and display only to mobile users who don't use Apple's products
+	}	
+}
+</script>
